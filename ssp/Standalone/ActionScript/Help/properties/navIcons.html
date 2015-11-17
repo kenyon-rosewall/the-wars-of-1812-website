@@ -1,0 +1,141 @@
+<html>
+<head>
+<title>SlideShowPro.navIcons</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+
+<script language="JavaScript" src="../../_sharedassets/pages.js"></script>
+</head>
+<body>
+
+	<table class="nav" width="100%" border="0" cellpadding="0" cellspacing="0">
+	  	<tr>
+		   <td width="100%" align="left"><p><b>SlideShowPro</b>&nbsp;</p></td>
+		   <td rowspan="4">
+		     	<a href="navIconColor.html"><img src="../../_sharedassets/previous.gif" alt="Previous" width="9" height="14" border="0"></a>
+		   </td>
+		   <td rowspan="4">&nbsp;&nbsp;</td>
+		   <td rowspan="4">		
+				<a href="navLinkAppearance.html"><img src="../../_sharedassets/next.gif" width="9" height="14" alt="Next" border="0"></a>
+			</td>
+			   </tr>
+			   <tr>
+			     <td align="left">&nbsp;</td>
+			   </tr>
+			   <tr>
+			     <td align="left">SlideShowPro Properties &gt; SlideShowPro.navIcons
+
+
+			</td>
+			   </tr>
+			   <tr>
+			      <td align="left">&nbsp;</td>
+			   </tr>
+			   <tr>
+			      <td colspan="4"><img src="../../_sharedassets/shim.gif" height="4" width="1"></td>
+			   </tr>
+			   <tr>
+			      <td colspan="4"><img src="../../_sharedassets/pixel.gif" height="1" width="100%"></td>
+			   </tr>
+			   <tr>
+			      <td colspan="4"><img src="../../_sharedassets/shim.gif" height="11" width="1"></td>
+			   </tr>
+			</table>
+			
+<h1>SlideShowPro.navIcons</h1>
+<h4>Availability</h4>
+<p>Flash Player 7</p>
+<h4>Edition</h4>
+<p>Flash MX 2004.</p>
+
+
+<h4>Usage</h4>
+
+<div class="listing">
+<pre><code><em>slideShowProInstance</em></code>.navIcons = [];
+</pre>
+</div>
+
+<h4>Description</h4>
+
+<p>Array; an Array containing linkage IDs for the MovieClips to be used as SlideShowPro's navigational icons. By default, this array is pre-filled with default linkage data for SlideShowPro's embedded icons. These values are:</p>
+
+<p>
+	navIcons[0] = "iconGallery";<br />
+	navIcons[1] = "iconPrevImageGroup";<br />
+	navIcons[2] = "iconPrevImage";<br />
+	navIcons[3] = "iconNextImage";<br />
+	navIcons[4] = "iconNextImageGroup";<br />
+	navIcons[5] = "iconPause";<br />
+	navIcons[6] = "iconPlay";<br />
+	navIcons[7] = "iconPause";<br />
+	navIcons[8] = "iconPlay";<br />
+	navIcons[9] = "iconFullScreen"<br />
+	navIcons[10] = "iconNormScreen"
+</p>
+
+<p>
+	navIcons[0] assigns the gallery open/close button at the far left of the navigation bar.<br />
+	navIcons[1] assigns the previous image group button to the right of the gallery button.<br />
+	navIcons[2] assigns the previous image button to the right of the previous image group button.<br />
+	navIcons[3] assigns the next image button to the right of the navigation links.<br />
+	navIcons[4] assigns the next image group button to the right of the next image button.<br />
+	navIcons[5] assigns the display mode pause button at the far right of the navigation bar.<br />
+	navIcons[6] assigns the display mode play button at the far right of the navigation bar.<br />
+	navIcons[7] assigns the audio pause button in the media player.<br />
+	navIcons[8] assigns the audio play button in the media player.<br />
+	navIcons[9] assigns the full screen button in the navigation
+	navIcons[10] assigns the normal screen button in the navigation
+</p>
+
+<p>To use your own custom MovieClips instead of SlideShowPro's embedded icons, simply fill the navIcons array with the linkage IDs for your MovieClips. It's important to note that your clips <em>must</em> be assigned in this same array order. </p>
+
+<p><strong>Note:</strong> This parameter is not available in the Component Inspector. It is modifiable through ActionScript only.</p>
+
+<h4>Example</h4>
+
+<div class="listing">
+<pre>
+my_ssp.navIcons = [
+	"mcBttn_gallery_mc",
+	"mcBttn_prevImageGroup_mc",
+	"mcBttn_prevImage_mc",
+	"mcBttn_nextImage_mc",
+	"mcBttn_nextImageGroup_mc",
+	"mcBttn_pause_mc",
+	"mcBttn_play_mc",
+	"mcBttn_pause_mc",
+	"mcBttn_play_mc",
+	"mcBttn_fullscreen_mc",
+	"mcBttn_normscreen_mc"
+];
+</pre>
+</div>
+
+<table class="nav" width="100%" border="0" cellpadding="0" cellspacing="0">
+
+	<tr>
+	      <td colspan="4"><img src="../../_sharedassets/shim.gif" height="6" width="1"></td>
+	   </tr>
+	   <tr>
+	      <td colspan="4"><img src="../../_sharedassets/pixel.gif" height="1" width="100%"></td>
+	   </tr>
+	   <tr>
+	      <td colspan="4"><img src="../../_sharedassets/shim.gif" height="4" width="1"></td>
+	   </tr>
+  	
+<tr>
+	   <td width="100%" align="left"><p>&nbsp;</p></td>
+	   <td rowspan="2">
+	     	<a href="navIconColor.html"><img src="../../_sharedassets/previous.gif" alt="Previous" width="9" height="14" border="0"></a>
+	   </td>
+	   <td rowspan="2">&nbsp;&nbsp;</td>
+	   <td rowspan="2">		
+			<a href="navLinkAppearance.html"><img src="../../_sharedassets/next.gif" width="9" height="14" alt="Next" border="0"></a>
+		</td>
+		   </tr>
+		  
+		 
+		</table>
+		
+</body>
+</html>

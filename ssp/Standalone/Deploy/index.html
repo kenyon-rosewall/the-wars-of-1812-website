@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>SlideShowPro for Flash</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="swfobject.js"></script>
+
+<style type="text/css">	
+	body,html {
+		margin: 0;
+		padding: 0;
+		height:100%;
+		width:100%;
+		overflow:hidden;
+	}
+	#flashcontent {
+		width:100%;
+		height:100%;
+	}
+</style>
+
+</head>
+<body>
+	
+
+	<!-- If moving, start copying from this line down -->
+	
+	<div id="flashcontent">
+		This SlideShowPro photo gallery requires the Flash Player plugin and a web browser with JavaScript enabled.
+	</div>	
+	
+	<script type="text/javascript">
+	var so = new SWFObject("loader.swf", "loader", "100%", "100%", "8", "#121212");
+		so.addParam("allowFullScreen","true");
+		so.addParam("quality", "best");
+		so.addVariable("paramXMLPath","param.xml");
+		so.write("flashcontent");	              
+	</script>
+	
+	<!-- Stop copying -->
+	
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+    <album lgPath="http://thewarsof1812.com/media/photos/" tnPath="http://thewarsof1812.com/media/photos/tn/" title="Photos" description="Desciption" tn="../media/photos/1.jpg">
+        <img src="1.jpg" title="" caption="" link="" target="_blank" pause="" />
+		<img src="2.jpg" title="" caption="" link="" target="_blank" pause="" />
+    </album>
+</gallery>

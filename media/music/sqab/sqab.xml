@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+	<trackList>
+
+		<track>
+			<title>Homestay</title>
+			<creator>The Wars of 1812</creator>
+			<location>media/music/sqab/the wars of 1812 - 01 - homestay.mp3</location>
+			<image>../../../../imgs/medSQABcover.jpg</image>
+		</track>
+
+		<track>
+			<title>Radios Unsigned</title>
+			<creator>The Wars of 1812</creator>
+			<location>media/music/sqab/the wars of 1812 - 02 - radios unsigned.mp3</location>
+			<image>../../../../imgs/medSQABcover.jpg</image>
+		</track>
+		
+		<track>
+			<title>Nothing to Do</title>
+			<creator>The Wars of 1812</creator>
+			<location>media/music/sqab/the wars of 1812 - 03 - nothing to do.mp3</location>
+			<image>../../../../imgs/medSQABcover.jpg</image>
+		</track>
+		
+		<track>
+			<title>Forget You Madly</title>
+			<creator>The Wars of 1812</creator>
+			<location>media/music/sqab/the wars of 1812 - 04 - forget you madly.mp3</location>
+			<image>../../../../imgs/medSQABcover.jpg</image>
+		</track>
+		
+		<track>
+			<title>New York City</title>
+			<creator>The Wars of 1812</creator>
+			<location>media/music/sqab/the wars of 1812 - 05 - new york city.mp3</location>
+			<image>../../../../imgs/medSQABcover.jpg</image>
+		</track>
+		
+		<track>
+			<title>Dritin</title>
+			<creator>The Wars of 1812</creator>
+			<location>media/music/sqab/the wars of 1812 - 06 - driftin.mp3</location>
+			<image>../../../../imgs/medSQABcover.jpg</image>
+		</track>
+		
+		<track>
+			<title>I'm Down</title>
+			<creator>The Wars of 1812</creator>
+			<location>media/music/sqab/the wars of 1812 - 07 - i'm down.mp3</location>
+			<image>../../../../imgs/medSQABcover.jpg</image>
+		</track>
+		
+		<track>
+			<title>Begging You</title>
+			<creator>The Wars of 1812</creator>
+			<location>media/music/sqab/the wars of 1812 - 08 - begging you.mp3</location>
+			<image>../../../../imgs/medSQABcover.jpg</image>
+		</track>
+		
+		<track>
+			<title>Lover and a Friend</title>
+			<creator>The Wars of 1812</creator>
+			<location>media/music/sqab/the wars of 1812 - 09 - lover and a friend.mp3</location>
+			<image>../../../../imgs/medSQABcover.jpg</image>
+		</track>
+
+	</trackList>
+</playlist>

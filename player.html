@@ -1,0 +1,60 @@
+<html>
+<head>
+	<title>The Wars of 1812 Media Player</title>
+	<script type="text/javascript"> 
+	  var gaJsHost = (("https:" == document.location.protocol) ? 
+	  "https://ssl." : "http://www."); 
+	  document.write(unescape("%3Cscript src='" + gaJsHost + 
+	  "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+	</script> 
+	<script type="text/javascript"> 
+	   var pageTracker = _gat._getTracker("UA-2639948-1"); 
+	   pageTracker._initData(); 
+	   pageTracker._trackPageview(); 
+	</script>
+	<script type="text/javascript" src="media/jw_media_player/swfobject.js"></script>
+</head>
+
+<body style="text-align:center;">
+<h3>Status Quo Ante Bellum</h3>
+<p id="player2"><a href="http://www.macromedia.com/go/getflashplayer">Get the Flash Player</a> to see this player.</p>
+<script type="text/javascript">
+	var s2 = new SWFObject("media/jw_media_player/mediaplayer.swf","playlist","300","600","7");
+	s2.addVariable("file","media/music/sqab/sqab.xml");
+	s2.addVariable("displayheight","300");
+	s2.addVariable("backcolor","0x000000");
+	s2.addVariable("frontcolor","0xCCCCCC");
+	s2.addVariable("lightcolor","0x996600");
+	s2.addVariable("width","300");
+	s2.addVariable("height","600");
+	s2.addVariable("shuffle","false");
+	s2.write("player2");
+</script>
+
+<br />
+<br />
+<h3>Here Are My Black Clothes</h3>
+<p id="player3"><a href="http://www.macromedia.com/go.getflashplayer">Get the Flash Player</a> to see this player.</p>
+<script type="text/javascript">
+	var s3 = new SWFObject("media/jw_media_player/mediaplayer.swf","playlist","300","600","7");
+	s3.addVariable("file","media/music/black/black.xml");
+	s3.addVariable("displayheight","300");
+	s3.addVariable("backcolor","0x000000");
+	s3.addVariable("frontcolor","0xCCCCCC");
+	s3.addVariable("lightcolor","0x996600");
+	s3.addVariable("width","300");
+	s3.addVariable("height","600");
+	s3.addVariable("shuffle","false");
+	s3.write("player3");
+</script>
+
+<br />
+<br />
+<h3>New Flash Player</h3>
+<p id="player4"></p>
+<script type="text/javascript">
+	var s4 = new SWFObject("tapePlayer.swf","playlist","300","600","7");
+	s4.write("player4");
+</script>
+</body>
+</html>

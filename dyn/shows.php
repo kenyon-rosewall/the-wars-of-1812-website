@@ -1,0 +1,40 @@
+<fieldset>
+<legend class="titleText">Shows</legend>
+<?
+include('../includes/config.php');
+?>
+<table>
+	<thead style='margin:0px;border:0px;background-color:grey;'>
+		<tr>
+			<th class="mainText">Venue</th>
+			<th class="mainText">Address</th>
+			<th class="mainText">Date/Time</th>
+			<th class="mainText">Cost</th>
+			<th class="mainText">Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<?
+		$todayDate = mktime(0,0,0,date("m"),date("d"),date("Y"));
+		$todayDate = date("Y/m/d",$todayDate);
+		$sql = "SELECT * FROM shows WHERE performanceDate >= '$todayDate' ORDER BY performanceDate ASC";
+		$result = mysql_query($sql) or die(mysql_error());
+		while ($row = mysql_fetch_assoc($result)) {
+			$arDate = split("-",$row['performanceDate']);
+			$pDate = mktime(0,0,0,$arDate[1],$arDate[2],$arDate[0]);
+			echo "<tr>";
+			echo "<td class='mainText' valign='top' style='font-weight:bold;'>".$row['venue']."</td>";
+			echo "<td class='mainText' valign='top'><a href='http://maps.google.com/maps?f=q&hl=en&geocode=&ie=UTF8&q=".$row['address']." ".$row['city']." ".$row['state']." ".$row['zip']."' target='_blank'>".$row['address']."<br />".$row['city'].", ".$row['state']." ".$row['zip']."</a></td>";
+			echo "<td class='mainText' valign='top'><span style='font-weight:bold;'>".date("M d",$pDate)."</span><br />".date("l",$pDate)."<br />".$row['performanceTime']."</td>";
+			echo "<td class='mainText' valign='top'>".$row['cost']."</td>";
+			echo "<td class='mainText' valign='top'>".$row['description']."</td>";
+			echo "</tr>";
+			echo "<tr><td colspan='5'><hr /></td></tr>";
+		}
+		?>
+	</tbody>
+</table>
+<?
+include('../includes/closeDb.php');
+?>
+</fieldset>

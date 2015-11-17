@@ -1,0 +1,17 @@
+
+<?
+$pk1 = "1";
+include('../includes/config.php');
+	$sql = "SELECT links FROM main WHERE pk1 = $pk1";
+	$result = mysql_query($sql) or die(mysql_error());
+	while($row = mysql_fetch_assoc($result)) {
+		$links = $row['links'];
+	}
+include('../includes/closeDb.php');
+?>
+<fieldset>
+<legend class="titleText">Links we like</legend>
+<?php echo $links ?>
+</fieldset>
+
+				
